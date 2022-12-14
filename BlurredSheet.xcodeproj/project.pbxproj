@@ -11,6 +11,8 @@
 		AAF9BFD4294955F200F29B23 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9BFD3294955F200F29B23 /* ContentView.swift */; };
 		AAF9BFD6294955F600F29B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF9BFD5294955F600F29B23 /* Assets.xcassets */; };
 		AAF9BFD9294955F600F29B23 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAF9BFD8294955F600F29B23 /* Preview Assets.xcassets */; };
+		AAF9BFE22949561D00F29B23 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9BFE12949561D00F29B23 /* Home.swift */; };
+		AAF9BFE429495CB200F29B23 /* Extension+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF9BFE329495CB200F29B23 /* Extension+View.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		AAF9BFD3294955F200F29B23 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AAF9BFD5294955F600F29B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAF9BFD8294955F600F29B23 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AAF9BFE12949561D00F29B23 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AAF9BFE329495CB200F29B23 /* Extension+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+View.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		AAF9BFD0294955F200F29B23 /* BlurredSheet */ = {
 			isa = PBXGroup;
 			children = (
+				AAF9BFE02949560B00F29B23 /* Helpers */,
+				AAF9BFDF2949560100F29B23 /* View */,
 				AAF9BFD1294955F200F29B23 /* BlurredSheetApp.swift */,
 				AAF9BFD3294955F200F29B23 /* ContentView.swift */,
 				AAF9BFD5294955F600F29B23 /* Assets.xcassets */,
@@ -65,6 +71,22 @@
 				AAF9BFD8294955F600F29B23 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AAF9BFDF2949560100F29B23 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9BFE12949561D00F29B23 /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AAF9BFE02949560B00F29B23 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				AAF9BFE329495CB200F29B23 /* Extension+View.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +160,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				AAF9BFD4294955F200F29B23 /* ContentView.swift in Sources */,
+				AAF9BFE22949561D00F29B23 /* Home.swift in Sources */,
+				AAF9BFE429495CB200F29B23 /* Extension+View.swift in Sources */,
 				AAF9BFD2294955F200F29B23 /* BlurredSheetApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
